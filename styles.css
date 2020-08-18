@@ -1,0 +1,42 @@
+#container {
+    width: 100%;
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    /* Flex directions are 
+    row | row-reverse | column 
+    | column-reverse; */
+    /* Row is the same row-re flips element
+    and pushes it to the right  */
+
+    /* flex-direction: row; */
+
+    /* flex wrap default is nowrap but 
+    by adding wrap the items will be able 
+    to fall to next row if the width of 
+    screen is too small */
+
+    /* flex-wrap: wrap-reverse; */
+
+    /* flex-flow */
+
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+#item1 {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+#item2 {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+}
+#item3 {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
