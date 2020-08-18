@@ -1,0 +1,14 @@
+We set the container that is holding the items to `display: flex;` allows us to use all of the flex properties 
+we have `flex-direction` and `flex-wrap` flex direction tells flex what direction we want items to be displayed
+flex-direction - has row, colmn, row-reverse, colmn-reverse
+flex-wrap- has nowrap, warp and wrap reverse
+
+To keep code clean and save lines in css we can use `flex-flow: "direction" "wrap"` - combines both direction and wrap
+
+`Justify-content:` lets us adjust items from the MAIN-AXIS 
+safe values to use flex start, flex end, center because not all web browsers use the others
+
+`align-items` is to adjust items on the cross-axis and aligns them we can align them to the center bottom baseline 
+lots of ways to align but what i found is that `align-items: stretch` will not work if item's heights are already
+defined because the align items will be over writen and align items depends on the height of the container if you want 
+to use flex-end to work.
