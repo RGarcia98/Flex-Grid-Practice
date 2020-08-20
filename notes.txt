@@ -1,3 +1,5 @@
+container:
+
 We set the container that is holding the items to `display: flex;` allows us to use all of the flex properties 
 we have `flex-direction` and `flex-wrap` flex direction tells flex what direction we want items to be displayed
 flex-direction - has row, colmn, row-reverse, colmn-reverse
@@ -12,3 +14,19 @@ safe values to use flex start, flex end, center because not all web browsers use
 lots of ways to align but what i found is that `align-items: stretch` will not work if item's heights are already
 defined because the align items will be over writen and align items depends on the height of the container if you want 
 to use flex-end to work.
+
+align-content helps with the way items wrap around 
+
+
+individual elements:
+
+order - changes the order an item is in the list 
+
+flex grow makes the elemnt grow depending if there is extra space not in use
+
+flex - flex: <flex-grow>< flex-shrink>< flex- basis>
+default is 0 1 auto
+
+align self - changes the alignment of the individual element
+
+
